@@ -1,0 +1,9 @@
+{
+    "trashAssetsBeforeRuns": true,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "baseUrl": "https://qaEnvAsDefault.com",
+    "env": {
+        "prod": "https://prodEnvToRunInCI.com/"
+    }
+}

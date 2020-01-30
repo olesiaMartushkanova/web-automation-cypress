@@ -1,0 +1,32 @@
+{
+  "name": "cypress-ts",
+  "version": "0.0.0",
+  "description": "Test project for Tradify with Cypress and TypeScript",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run",
+    "update": "npm i cypress@latest typescript@latest ts-loader@latest webpack@latest @cypress/webpack-preprocessor@latest -S -E",
+    "cypress:ci": "cypress run --browser chrome --reporter teamcity",
+    "cypress:prod": "set CYPRESS_baseUrl=https://go.tradifyhq.com/ cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olesiaMartushkanova/cypress-typescript-tradify"
+  },
+  "keywords": [
+    "cypress",
+    "typescript"
+  ],
+  "author": "Olesia M.",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "4.1.0",
+    "cypress": "^3.6.1",
+    "ts-loader": "6.2.1",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "start-server-and-test": "^1.10.6"
+  }
+}
