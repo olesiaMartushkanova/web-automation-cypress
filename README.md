@@ -4,7 +4,7 @@ Get started quickly with Cypress + TypeScript
 ## Setup Cypress project
 
 ```
-git clone {project url from github}
+git clone git@github.com:olesiaMartushkanova/web-automation-cypress.git
 npm install
 npm install cypress
 ```
